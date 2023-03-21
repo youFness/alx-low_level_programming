@@ -1,0 +1,38 @@
+#include "main.h"
+
+/**
+* jack_bauer - prints the minutes of a day
+*
+*Return: no return.
+*/
+void time_table (void)
+{
+int x, y, u, d;
+for (x = 0; x <= 9; x++)
+{
+for (x = 0; x <= 9; x++)
+{
+z = x * y;
+if (z > 9)
+{
+u = z % 10;
+d = (z - u) / 10;
+_putchar(44);
+_putchar(32);
+_putchar(d + '0');
+_putchar(u + '0');
+}
+else
+{
+if (y != 0)
+{
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar(z + '0');
+}
+}
+_putchar('\n;);
+}
+}
