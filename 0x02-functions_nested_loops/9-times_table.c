@@ -7,12 +7,12 @@
 */
 void time_table (void)
 {
-int x, y, u, d;
+int x, y, z, u, d;
 for (x = 0; x <= 9; x++)
 {
-for (x = 0; x <= 9; x++)
+for (y = 0; y <= 9; x++)
 {
-int z = x * y;
+       	z = x * y;
 if (z > 9)
 {
 u = z % 10;
