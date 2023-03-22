@@ -12,7 +12,7 @@ for (x = 0; x <= 9; x++)
 {
 for (x = 0; x <= 9; x++)
 {
-z = x * y;
+int z = x * y;
 if (z > 9)
 {
 u = z % 10;
